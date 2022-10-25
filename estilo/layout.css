@@ -1,0 +1,58 @@
+/************************
+    Adrián Vega - UO282365
+    Layout general de la pagina web
+************************/
+
+
+/* Especifidad: 001*/
+body{
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu  main"
+    "footer  footer";
+  grid-template-rows: min-content 1fr  ;
+  grid-template-columns: min-content 1fr;
+}
+
+
+
+/* Especifidad: 001*/
+header{
+    grid-area:header;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;  
+    justify-content: left;
+    align-items: center;  
+}
+
+/* Especifidad: 001*/
+nav{
+  grid-area: menu; 
+  display: grid;
+  grid-template-rows:1fr 1fr 1fr 1fr ;
+  gap: 1vw;
+  grid-template-columns: auto ;
+  height: fit-content;
+}
+
+/* Especifidad: 001*/
+main{
+  grid-area: main;
+}
+
+/* Especifidad: 001*/
+footer{
+  grid-area: footer;
+}
+
+/* Especifidad: 001*/
+h2{
+  justify-self: left;
+  width: fit-content;
+}
+
+
+
+

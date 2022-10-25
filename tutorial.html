@@ -1,0 +1,84 @@
+<!DOCTYPE HTML><!--Indica que el siguiente documento es HTML-->
+
+<html lang="es"><!--Indica que esta escrito en castellano-->
+<head><!--Indica especificaciones del archivo-->
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Framework Bootstrap - Tutorial</title>
+    <!--Metadato-->
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Adrián Vega" />
+    <meta name ="description" content ="Tutorial sobre bootstrap y formulario para saber si parecio util" />
+    <meta name ="keywords" content ="bootstrap,framework,html,css,front-end,diseño,tutorial" />
+    <!--Añadimos ventana grafica-->
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />   
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+<body>
+    <header>
+        <img src="multimedia/bootstrap.png" alt="Logo de bootstrap">
+        <h1>Bootstrap</h1>
+    </header>
+    <nav>
+        <a href="index.html" tabindex="1" accesskey="I">Inicio</a>
+        <a href="tutorial.html" tabindex="2" accesskey="T">Tutorial</a>
+        <a href="ventajas.html" tabindex="3" accesskey="P">¿Por que bootstrap?</a>
+        <a href="versiones.html" tabindex="4" accesskey="V">Versiones</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Tutorial sobre bootstrap</h2>
+            <p>
+                A continuación se añade un tutorial para aprender a utilizar bootstrap.
+                Por favor, complete el formulario despues de ver el video para saber cómo de útil le ha resultado
+            </p>
+            <video src="multimedia/video_tutorial.mp4" controls preload="auto"> </video>
+        </section>
+        <section>
+            <h2>Formulario: </h2>
+            <form name="Encuesta de satisfaccion">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" placeholder="Nombre" required>
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos:</label>
+                    <input id="apellidos" type="text" placeholder="Apellidos" required>
+                </p>
+                <p>
+                    <label for="email">e-mail:</label>
+                    <input id="email" type="email" placeholder="e-mail" required>
+                </p>
+                <p>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input id="nacimiento" type="date" required>
+                </p>
+                <p>
+                    <label for="tiempo">¿Cuánto has visto del video?</label>
+                    <input id="tiempo" type="range">
+                </p>
+             
+                <fieldset>
+                    <legend> ¿Le ha parecido util el video? </legend>
+                    <p><input type=radio id="5estrellas"><label for="5estrellas"> 5 ⭐</label></p>
+                    <p><input type=radio id="4estrellas"><label for="4estrellas"> 4 ⭐</label></p>
+                    <p><input type=radio id="3estrellas"><label for="3estrellas"> 3 ⭐</label></p>
+                    <p><input type=radio id="2estrellas"><label for="2estrellas"> 2 ⭐</label></p>
+                    <p><input type=radio id="1estrella"><label for="1estrella"> 1 ⭐</label></p>
+                    
+                </fieldset>
+                <p><input type="submit" value="Enviar" ></p>
+            </form>
+        </section>
+ 
+        
+    </main>
+
+    <footer>
+        <p>Página web creada por Adrián Vega para SEW 2022</p>
+    </footer>
+</body>
+    

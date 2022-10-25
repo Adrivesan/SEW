@@ -1,0 +1,144 @@
+/************************
+    Adrián Vega - UO282365
+    Descripción de los estilos
+************************/
+
+/* Especifidad: 001*/
+body{color:black;
+    background-color: rgb(204, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Especifidad: 001*/
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-bottom: 2px solid rgb(128, 125, 125);
+}
+
+/* Especifidad: 001*/
+nav{
+    background-color: rgb(204, 206, 206);
+    padding: 15px;
+}
+
+/* Especifidad: 002*/
+nav a{
+    font-size: 1em;
+    border-top: solid blueviolet;
+    padding: .5vw;
+    font-style: oblique ;
+}
+
+/* Especifidad: 001*/
+main{
+    background-color: rgb(212, 234, 241);
+    border-left: 2px solid rgb(128, 125, 125);
+    padding: 1vw; 
+}
+
+/* Especifidad: 002*/
+main h2{
+    background-color: #BE94E6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    align-self: center;
+    padding: .5vw;
+    border-radius: 1vw;
+}
+
+/* Especifidad: 002*/
+main p{
+    font-size: 1em;
+    text-align: justify;
+}
+
+/* Especifidad: 002*/
+main a{
+    color: #5C005C;
+    font-style: oblique;
+    background-color: rgb(204, 206, 206);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+/* Especifidad: 002*/
+main section{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+    border-bottom: solid blueviolet;
+}
+
+/* Especifidad: 001*/
+li{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: circle;
+    background-color:  rgb(204, 206, 206);
+    margin: 1%;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+
+
+/* Especifidad: 001*/
+table, th, td{
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 2vh;
+}
+/* Especifidad: 001*/
+tbody{
+    background-color: rgb(204, 206, 206);
+}
+
+/* Especifidad: 001*/
+thead th{
+    border-bottom: 2px solid blueviolet;
+    background-color: #979B9B;
+}
+
+/* Especifidad: 001*/
+td,th{
+    border-right: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    padding: 5px;
+}
+
+
+/* Especifidad: 001*/
+audio{
+    margin-bottom: 1vw;
+}
+
+/* Especifidad: 001*/
+video{
+    width: 75%;
+    height: auto;
+    margin-bottom: 2vw;
+}
+
+/* Especifidad: 001*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Especifidad: 001*/
+form{
+    margin-bottom: 2vw;
+}
+
+/* Especifidad: 001*/
+footer{
+    background-color: burlywood;
+}
+
+/* Especifidad: 002*/
+footer p{
+    text-align: center;
+}
